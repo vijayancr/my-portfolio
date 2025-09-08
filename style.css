@@ -165,9 +165,11 @@ ul {
   box-shadow: 0 8px 18px rgba(0,0,0,0.15);
 }
 
+/* ✅ Updated Skill Logo */
 .skill-logo {
   width: 55px;
-  height: auto;
+  height: 55px;
+  object-fit: contain;
 }
 
 .skill span {
