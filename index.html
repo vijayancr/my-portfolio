@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Personal Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <button id="darkModeToggle">🌙</button>
+
+  <!-- Header -->
+  <header>
+    <nav>
+      <div class="logo">My Portfolio</div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="hero">
+      <h1>Vijayarangan C</h1>
+      <p>DevOps Engineer | Cloud & Infrastructure Specialist</p>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p id="career-objective"></p>
+  </section>
+
+  <!-- Experience Section -->
+  <section id="experience">
+    <h2>Experience</h2>
+    <div class="card">
+      <h3>Cloud Platform Engineer</h3>
+      <span>E2E Networks Ltd, Chennai | May 2024 – Present</span>
+      <ul>
+        <li>Designed, deployed, and managed scalable cloud infrastructure on AWS.</li>
+        <li>Implemented CI/CD pipelines using Jenkins and GitOps (Argo CD).</li>
+        <li>Built and maintained containerized applications using Docker and Kubernetes.</li>
+        <li>Automated infrastructure provisioning with Terraform and Ansible.</li>
+        <li>Set up centralized monitoring with Prometheus, Grafana, and ELK Stack.</li>
+        <li>Enforced cloud security best practices including IAM, VPC, and encryption.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills">
+    <h2>Technical Skills</h2>
+    <div class="skills-container">
+
+      <div class="skill">
+        <img src="images/logos/linux.svg" alt="Linux" class="skill-logo">
+        <span>Linux</span>
+      </div>
+
+      <div class="skill">
+        <img src="images/logos/aws.svg" alt="AWS" class="skill-logo">
+        <span>AWS</span>
+      </div>
+
+      <div class="skill">
+        <img src="images/logos/docker.svg" alt="Docker" class="skill-logo">
+        <span>Docker</span>
+      </div>
+
+      <div class="skill">
+        <img src="images/logos/kubernetes.svg" alt="Kubernetes" class="skill-logo">
+        <span>Kubernetes</span>
+      </div>
+
+      <div class="skill">
+        <img src="images/logos/terraform.svg" alt="Terraform" class="skill-logo">
+        <span>Terraform</span>
+      </div>
+
+      <div class="skill">
+        <img src="images/logos/jenkins.svg" alt="Jenkins" class="skill-logo">
+        <span>Jenkins</span>
+      </div>
+
+      <div class="skill">
+        <img src="images/logos/python.svg" alt="Python" class="skill-logo">
+        <span>Python</span>
+      </div>
+
+      <div class="skill">
+        <img src="images/logos/prometheus.svg" alt="Prometheus" class="skill-logo">
+        <span>Prometheus</span>
+      </div>
+
+      <div class="skill">
+        <img src="images/logos/grafana.svg" alt="Grafana" class="skill-logo">
+        <span>Grafana</span>
+      </div>
+
+      <div class="skill">
+        <img src="images/logos/zabbix_logo_identity.svg" alt="Zabbix" class="skill-logo">
+        <span>Zabbix</span>
+      </div>
+
+      <div class="skill">
+        <img src="images/logos/git.svg" alt="Git" class="skill-logo">
+        <span>Git</span>
+      </div>
+
+      <div class="skill">
+        <img src="images/logos/github.svg" alt="GitHub" class="skill-logo">
+        <span>GitHub</span>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Education Section -->
+  <section id="education">
+    <h2>Education</h2>
+    <div class="card">
+      <h3>ANNAMALAI UNIVERSITY</h3>
+      <span>B.E Computer Science | GPA: 8.38 | June 2019 – May 2023</span>
+    </div>
+    <div class="card">
+      <h3>Mount Park Higher Secondary School</h3>
+      <span>HSC | June 2017 – May 2019</span>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="card project-card">
+      <h3>Deployment of a 3-Tier Web Application Using Docker and Kubernetes</h3>
+      <p><strong>Tools:</strong> Git, GitHub, Docker, Kubernetes, NGINX, Prometheus, Grafana, AWS RDS, MySQL</p>
+      <ul>
+        <li>Designed and deployed 3-tier architecture: web UI, backend, MySQL database.</li>
+        <li>Containerized all components using Docker and pushed images to Docker Hub.</li>
+        <li>Deployed application to Kubernetes with Deployment, Service, and Ingress manifests.</li>
+        <li>Configured NGINX Ingress Controller with SSL and domain routing.</li>
+        <li>Integrated AWS RDS (MySQL) and managed credentials with Kubernetes Secrets.</li>
+        <li>Implemented Prometheus for monitoring and Grafana dashboards for real-time metrics.</li>
+        <li>Used readiness/liveness probes, resource limits, and auto-scaling for high availability.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <div class="contact-info">
+      <p><strong>Phone:</strong> <a href="tel:+917094648959">+91 70946 48959</a></p>
+      <p><strong>Email:</strong> <a href="mailto:vijayaranganchakkaravarthi@gmail.com">vijayaranganchakkaravarthi@gmail.com</a></p>
+      <p><strong>Resume:</strong> <a href="files/Vijayarangan_Resume.pdf" download>Download Resume</a></p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Vijayarangan C | DevOps Engineer</p>
+  </footer>
+</body>
+</html>
