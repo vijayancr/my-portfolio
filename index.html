@@ -3,17 +3,17 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Personal Portfolio</title>
+  <title>Vijayarangan C | DevOps Portfolio</title>
   <link rel="stylesheet" href="style.css">
   <script src="script.js" defer></script>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <button id="darkModeToggle">🌙</button>
+  <button id="darkModeToggle" aria-label="Toggle Dark Mode">🌙</button>
 
   <!-- Header -->
   <header>
-    <nav>
+    <nav aria-label="Main Navigation">
       <div class="logo">My Portfolio</div>
       <ul class="nav-links">
         <li><a href="#about">About</a></li>
@@ -57,8 +57,23 @@
   <!-- Skills Section -->
   <section id="skills">
     <h2>Technical Skills</h2>
-    <div class="skills-container">
+    <div class="skills-wrapper">
+      <div class="skills-container">
 
+        <div class="skill"><img src="images/logos/linux.svg" alt="Linux" class="skill-logo"><span>Linux</span></div>
+        <div class="skill"><img src="images/logos/aws.svg" alt="AWS" class="skill-logo"><span>AWS</span></div>
+        <div class="skill"><img src="images/logos/docker.svg" alt="Docker" class="skill-logo"><span>Docker</span></div>
+        <div class="skill"><img src="images/logos/kubernetes.svg" alt="Kubernetes" class="skill-logo"><span>Kubernetes</span></div>
+        <div class="skill"><img src="images/logos/terraform.svg" alt="Terraform" class="skill-logo"><span>Terraform</span></div>
+        <div class="skill"><img src="images/logos/jenkins.svg" alt="Jenkins" class="skill-logo"><span>Jenkins</span></div>
+        <div class="skill"><img src="images/logos/python.svg" alt="Python" class="skill-logo"><span>Python</span></div>
+        <div class="skill"><img src="images/logos/prometheus.svg" alt="Prometheus" class="skill-logo"><span>Prometheus</span></div>
+        <div class="skill"><img src="images/logos/grafana.svg" alt="Grafana" class="skill-logo"><span>Grafana</span></div>
+        <div class="skill"><img src="images/logos/zabbix.png" alt="Zabbix" class="skill-logo"><span>Zabbix</span></div>
+        <div class="skill"><img src="images/logos/git.svg" alt="Git" class="skill-logo"><span>Git</span></div>
+        <div class="skill"><img src="images/logos/github.svg" alt="GitHub" class="skill-logo"><span>GitHub</span></div>
+
+<<<<<<< HEAD
       <div class="skill"><img src="images/logos/linux.svg" alt="Linux" class="skill-logo"><span>Linux</span></div>
       <div class="skill"><img src="images/logos/aws.svg" alt="AWS" class="skill-logo"><span>AWS</span></div>
       <div class="skill"><img src="images/logos/docker.svg" alt="Docker" class="skill-logo"><span>Docker</span></div>
@@ -75,6 +90,9 @@
       <div class="skill"><img src="images/logos/git.svg" alt="Git" class="skill-logo"><span>Git</span></div>
       <div class="skill"><img src="images/logos/github.svg" alt="GitHub" class="skill-logo"><span>GitHub</span></div>
 
+=======
+      </div>
+>>>>>>> 67d64ca (Updated portfolio: modified index.html & style.css, replaced Zabbix logo)
     </div>
   </section>
 
@@ -115,7 +133,7 @@
     <div class="contact-info">
       <p><strong>Phone:</strong> <a href="tel:+917094648959">+91 70946 48959</a></p>
       <p><strong>Email:</strong> <a href="mailto:vijayaranganchakkaravarthi@gmail.com">vijayaranganchakkaravarthi@gmail.com</a></p>
-      <p><strong>Resume:</strong> <a href="files/Vijayarangan_Resume.pdf" download>Download Resume</a></p>
+      <p><strong>Resume:</strong> <a href="files/Vijayarangan_Resume.pdf" download rel="noopener">Download Resume</a></p>
     </div>
   </section>
 
